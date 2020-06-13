@@ -8,26 +8,26 @@ author: "octocat@github.com"
 	
 inputs:
 	
-MY_NAME:
+  MY_NAME:
 	
-description: "Who to greet"
+    description: "Who to greet"
 	
-required: true
+    required: true
 	
-default: "World"
+    default: "World"
 	
 	
 	
 runs:
 	
-using: "docker"
+  using: "docker"
 
-image: "Dockerfile"
+  image: "Dockerfile"
 	
 	
 	
 branding:
 
-icon: "mic"
+  icon: "mic"
 	
-color: "purple"
+  color: "purple"
